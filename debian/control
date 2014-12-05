@@ -1,0 +1,12 @@
+Source: pnmixer
+Section: utils
+Priority: extra
+Maintainer: Arnaud Morin <arnaud.morin@gmail.com>
+Build-Depends: debhelper (>= 7.0.50~), python-support, libglib2.0-dev, libasound2-dev, libgtk2.0-dev, libx11-dev, libnotify-cil-dev, autoconf, automake, pkg-config, gettext-base, dh-autoreconf
+Standards-Version: 3.9.5
+Homepage: https://github.com/nicklan/pnmixer
+
+Package: pnmixer
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, pavucontrol
+Description: PNMixer is a simple mixer application designed to run in your system tray. It integrates nicely into desktop environments that don't have a panel that supports applets, and therefore can't run a mixer applet. In particular it's been used quite a lot with fbpanel and tint2, but should run fine in any system tray.

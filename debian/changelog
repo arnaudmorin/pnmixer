@@ -1,0 +1,36 @@
+pnmixer (0.5.1-0~ppa+utopic6) utopic; urgency=medium
+
+  * Move arch to any to get a build for x64 and i686
+
+ -- Arnaud Morin <arnaud.morin@gmail.com>  Fri, 05 Dec 2014 16:33:55 +0100
+
+pnmixer (0.5.1-0~ppa+utopic5) utopic; urgency=medium
+
+  * Try with ./autogen.sh
+
+ -- Arnaud Morin <arnaud.morin@gmail.com>  Fri, 05 Dec 2014 15:39:53 +0100
+
+pnmixer (0.5.1-0~ppa+utopic4) utopic; urgency=medium
+
+  * Try to call autogen.sh
+
+ -- Arnaud Morin <arnaud.morin@gmail.com>  Fri, 05 Dec 2014 15:29:15 +0100
+
+pnmixer (0.5.1-0~ppa+utopic3) utopic; urgency=medium
+
+  * Upload with sources
+
+ -- Arnaud Morin <arnaud.morin@gmail.com>  Fri, 05 Dec 2014 14:25:37 +0100
+
+pnmixer (0.5.1-0~ppa+utopic2) utopic; urgency=low
+
+  * Simpler package
+
+ -- Arnaud Morin <arnaud.morin@gmail.com>  Fri, 05 Dec 2014 14:23:26 +0100
+
+pnmixer (0.5.1-0~ppa+utopic) utopic; urgency=low
+
+  * Ubuntu Utopic package
+  * PNMixer is a simple mixer application designed to run in your system tray. It integrates nicely into desktop environments that don't have a panel that supports applets, and therefore can't run a mixer applet. In particular it's been used quite a lot with fbpanel and tint2, but should run fine in any system tray.
+
+ -- Arnaud Morin <arnaud.morin@gmail.com>  Fri, 05 Dec 2014 12:55:46 +0100
